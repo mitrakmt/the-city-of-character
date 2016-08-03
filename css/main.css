@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+
+body {
+  font-family: 'PT Serif', serif;
+  background-image: url('images/hamilton2.jpg');
+  height: 110%;
+  width: 100%;
+  position: relative;
+}
+
+img {
+  background: url(images/loading.gif) 50% no-repeat;
+  height: 100%;
+  width: 450px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #31254F;
+  height: 60px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  opacity: .95;
+  border-bottom: 0.5px solid white;
+}
+
+.navbar p {
+  color: white;
+  padding: 20px;
+}
+
+.navbar p a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Landing page section */
+
+.landing {
+  background-color: #5E46A4;
+  height: 95%;
+  opacity: .9;
+  color: white;
+}
+
+.title {
+  margin-top: 20%;
+  margin-left: 3%;
+}
+
+.title-tag {
+  color: #F0F0F0;
+  margin-left: 4%;
+  max-width: 50%;
+}
+
+/* About section */
+
+.about {
+  background-color: #5155B2;
+  width: 100%;
+  z-index: 9;
+  min-height: 300px;
+  color: white;
+}
+
+.thumb-images {
+  height: 100%;
+  width: 450px;
+}
+
+.card-content {
+  padding-left: 40px;
+}
+
+.currentLink {
+    color:#baada7;
+}
+
+/* Team Section */
+
+.team {
+  background-color: #4D51AA;
+  width: 100%;
+  z-index: 9;
+  min-height: 280px;
+  color: white;
+}
+
+/* Events Section */
+
+.events {
+  background-color: #494DA1;
+  width: 100%;
+  z-index: 9;
+  min-height: 300px;
+  color: white;
+}
+
+/* Comments Section */
+.comments {
+  padding: 50px;
+  background-color: #31254F;
+}
