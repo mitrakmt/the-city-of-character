@@ -32,12 +32,33 @@ body {
   color: white;
 }
 
+/* Logo */
+
+.thumb-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.temporary-logos {
+  height: 100%;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.logo {
+  float: right;
+  margin: 50px;
+  height: 150px;
+  width: 150px;
+}
+
 /* Landing page section */
 
 .landing {
   background-color: #5C6BC0;
   height: 95%;
   opacity: .85;
+  max-height: 800px;
   color: white;
 }
 
