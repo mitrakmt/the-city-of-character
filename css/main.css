@@ -1,23 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url('images/hamilton2.jpg');
   height: 110%;
   width: 100%;
   position: relative;
 }
 
-img {
-  background: url(images/loading.gif) 50% no-repeat;
-  height: 100%;
-  width: 450px;
-}
-
 /* Navbar */
 
 .navbar {
-  background-color: #31254F;
+  background-color: #1B277C;
   height: 60px;
   top: 0;
   position: fixed;
@@ -41,9 +35,9 @@ img {
 /* Landing page section */
 
 .landing {
-  background-color: #5E46A4;
+  background-color: #5C6BC0;
   height: 95%;
-  opacity: .9;
+  opacity: .85;
   color: white;
 }
 
@@ -61,7 +55,7 @@ img {
 /* About section */
 
 .about {
-  background-color: #5155B2;
+  background-color: #303F9F;
   width: 100%;
   z-index: 9;
   min-height: 300px;
@@ -84,7 +78,7 @@ img {
 /* Team Section */
 
 .team {
-  background-color: #4D51AA;
+  background-color: #3949AB;
   width: 100%;
   z-index: 9;
   min-height: 280px;
@@ -94,7 +88,7 @@ img {
 /* Events Section */
 
 .events {
-  background-color: #494DA1;
+  background-color: #3F51B5;
   width: 100%;
   z-index: 9;
   min-height: 300px;
@@ -104,5 +98,9 @@ img {
 /* Comments Section */
 .comments {
   padding: 50px;
-  background-color: #31254F;
+  background-color: #31429D;
+}
+
+.comments p {
+  color: white;
 }
