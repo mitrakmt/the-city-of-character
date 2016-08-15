@@ -35,7 +35,6 @@ body {
 /* Landing page section */
 
 .landing {
-  background-color: #3F51B5;
   height: 95%;
   opacity: .9;
   max-height: 800px;
@@ -45,11 +44,13 @@ body {
 .title {
   margin-top: 20%;
   margin-left: 3%;
+  color: black;
 }
 
 .title-tag {
   color: #F0F0F0;
   margin-left: 4%;
+  color: black;
   max-width: 50%;
 }
 
@@ -109,7 +110,7 @@ body {
 /* Sponsors Section */
 
 .sponsors {
-  background-color: #C5CAE9;
+  color: black;
 }
 
 /* Logo */
