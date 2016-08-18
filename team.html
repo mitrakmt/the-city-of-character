@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Place these first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page title -->
+    <title>City of Character - Hamilton</title>
+
+    <!-- These meta tags are recognised by Google -->
+    <meta name="description" content="Page description.">
+    <meta name="robots" content="robots.txt">
+
+    <!-- Site styles and authors -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.css">
+    <link href="css/team.css" rel="stylesheet">
+    <link href="humans.txt" rel="author">
+
+    <!-- HTML5 shim for older version of IE -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <!-- For IE 10 and below just place a file called favicon.ico in the root directory -->
+    <link href="/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/favicon-48x48.png" rel="icon" type="image/png" sizes="48x48">
+    <link href="/favicon-64x64.png" rel="icon" type="image/png" sizes="64x64">
+    <link href="/favicon-96x96.png" rel="icon" type="image/png" sizes="96x96">
+    <link href="/android-chrome-192x192.png" rel="icon" type="image/png" sizes="192x192">
+    <link href="/safari-pinned-tab.svg" rel="mask-icon" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph protocol  -->
+    <meta property="og:title" content="Content Title">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cityofcharacter.com/image.jpg">
+    <meta property="og:url" content="https://cityofcharacter.com/home.html">
+    <meta property="og:description" content="Description">
+    <meta property="og:site_name" content="Site name">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="Author name">
+
+  </head>
+
+  <body>
+    <md-content class="navbar" layout="row" layout-align="center center" layout-padding>
+      <p class="md-title"><button class="navLink" onclick="homeClick()">Welcome</button></p>
+      <p class="md-title"><button class="navLink currentPage" onclick="teamClick()">Who We Are</button></p>
+      <p class="md-title"><button class="navLink" onclick="whatWeDoClick()">What We Do</button></p>
+      <p class="md-title"><button class="navLink" onclick="historyClick()">History</button></p>
+      <p class="md-title"><button class="navLink" onclick="contactClick()">Get in Touch</button></p>
+    </md-content>
+
+    <md-content layout="center center" layout-padding>
+      <div id="w" layout-padding>
+        <h1 class="md-display-3">Meet the Team</h1>
+        <p class="md-subhead">Click any of the team member's photos to show more details.</p>
+
+        <br><br><br>
+
+        <ul class="team clearfix" layout="row">
+          <li>
+            <img src="images/shan-team.jpg" alt="Nancy O’Neill" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Member</span>
+            <span class="hcontent desc">Nancy O’Neill is a native of the Greater Hamilton area.  She is Director of Communications and Events for the Greater Hamilton Chamber of Commerce and is also director of the Chamber's Leadership Hamilton program.
+              <br><br>
+            Nancy currently serves on the YMCA Camp Campbell Gard Advisory Board, Hamilton Rotary Club Board, City of Sculpture Board, and the Rossville Historic District Board.  She has previously served on the Boards of the Boys & Girls Club of Hamilton and the YWCA.  She is a member of the Hamilton Rotary Club, Hamilton Junior Women’s League, Hamilton Community Foundation Women's Fund Committee, Colleagues of Fort Hamilton Hospital, and P.E.O. Chapter ES.
+            <br><br>
+            Nancy joined the City of Character Committee as a representative of the Chamber...bringing a connection to the business community.</span>
+          </li>
+
+          <li>
+            <img src="images/shan-team.jpg" alt="Joni Copas" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Member</span>
+            <span class="hcontent desc">My name is Joni Copas and I am the Director of Communications for the Hamilton City School District.  I am a life-long resident of Hamilton and graduated from Miami University.  I am very involved in the district's Character Education Initiative, which is one of the precursors to the City of Character Program, and have been involved in the City of Character since its inception.</span>
+          </li>
+
+          <li>
+            <img src="images/shan-team.jpg" alt="Shan Qureshi" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Member</span>
+            <span class="hcontent desc">My name is Shan Qureshi and I am a Masters student at Xavier University studying Healthcare Administration. I graduated from Miami University in 2014 and was involved with the Student Government Association and Project Civility. I have been a member of the City of Character since its inception and came to learn about it through the vision of Mayor Pat Moeller. Over the last three years, I’ve witnessed how civility and character can positively influence individuals and I cherish the opportunity to serve the community I love.
+            </span>
+          </li>
+
+          <li>
+            <img src="images/shan-team.jpg" alt="Paul Thomas" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Member</span>
+            <span class="hcontent desc">Paul Thoms is a community voluteer, with a background in music education, school administration, and public relations. His concern that civility might be disappearing has led to a dedication to promoting character education, in Hamilton, as a means of growing the community's ability to show consideration for others.
+            </span>
+          </li>
+
+          <li>
+            <img src="images/shan-team.jpg" alt="Peter N. Engelhard Jr." width="130" height="150" class="profilepic">
+            <span class="hcontent job">Member</span>
+            <span class="hcontent desc">My name is Peter N. Engelhard Jr. and I graduated from Miami University in 2016 with an A.A.S. in Business Management Technology, B.S. in Civic and Regional Development, and Bachelor in Integrative Studies with concentrations in Organizational Leadership and Cross-Cultural Leadership. During my senior year at Miami; three other Miami students and I created the first Student United Way in the state of Ohio right on the Miami Hamilton campus. I started as an intern for the City of Character in January 2016 and became a member of the committee in July.  I moved to Hamilton from Oxford in the end of spring to help be a part of the revitalization of Hamilton. I’m involved in updating the website for the CORE Fund, on the Resource Development Committee at SELF, and helping build up the volunteer coordinator position at the Booker T. Washington Community Center.  Looking to get involved as an engaged civic leader in the Hamilton community.</span>
+          </li>
+
+          <li>
+            <img src="images/shan-team.jpg" alt="Mary Andres Russell" width="130" height="150" class="profilepic">
+            <span class="hcontent job">Executive Director</span>
+            <p class="hcontent desc">Mary has been facilitating character discovery seminars for the Character Council since 2001.  Through her warmth and enthusiasm, Mary creates a positive, comfortable atmosphere for learning and personal development and brings awareness to this much-needed focus on good character and integrity.
+            <br><br>
+            Her goal through the seminars is to help others discover and nurture the best in themselves.  Through the seminars and monthly writings, she has inspired thousands.  In addition, she helped launch character-focused initiatives in nine schools, four pre-schools, six businesses, one chamber of commerce, one library, two faith organizations, and in three communities.  </p>
+          </li>
+
+        </ul>
+
+        <div id="teamcontent" class="clearfix">
+          <img src="images/shan-team.jpg" class="bigimg" width="225" height="260">
+          <div id="teamdetails">
+            <h2 id="bigname">Name</h2>
+            <h3 id="bigjob">Title</h3>
+            <p id="bigdesc">A brief description.</p>
+          </div>
+        </div>
+
+      </div>
+    </md-content>
+
+
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.js"></script>
+    <script src="js/main.js" async></script>
+  </body>
+</html>

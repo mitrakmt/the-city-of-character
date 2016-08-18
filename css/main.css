@@ -2,16 +2,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url('images/hamilton2.jpg');
-  height: 110%;
+  background-image: url('images/ham1.jpg');
+  height: 100%;
   width: 100%;
   position: relative;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 /* Navbar */
 
 .navbar {
-  background-color: #1B277C;
+  background-color: #1F4E80;
   height: 60px;
   top: 0;
   position: fixed;
@@ -20,6 +24,11 @@ body {
   width: 100%;
   opacity: .95;
   border-bottom: 0.5px solid white;
+}
+
+.md-raised {
+  background-color: white;
+  color: #1F4E80;
 }
 
 .navbar p {
@@ -32,32 +41,49 @@ body {
   color: white;
 }
 
+.currentLink {
+    color:#baada7;
+}
+
+.currentPage {
+  color: gold !important;
+}
+
+.navLink {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
 /* Landing page section */
 
 .landing {
-  height: 95%;
+  height: 85%;
   opacity: .9;
   max-height: 800px;
   color: white;
 }
 
 .title {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 3%;
-  color: black;
+  color: white;
+  font-weight: 600;
 }
 
 .title-tag {
   color: #F0F0F0;
   margin-left: 4%;
-  color: black;
-  max-width: 50%;
+  color: white;
+  font-size: 22px;
+  max-width: 72%;
+  font-weight: 500;
 }
 
 /* About section */
 
 .about {
-  background-color: #303F9F;
+  background-color: #2A5685;
   width: 100%;
   z-index: 9;
   min-height: 300px;
@@ -73,14 +99,10 @@ body {
   padding-left: 40px;
 }
 
-.currentLink {
-    color:#baada7;
-}
-
 /* Team Section */
 
 .team {
-  background-color: #3949AB;
+  background-color: #1F4E80;
   width: 100%;
   z-index: 9;
   min-height: 280px;
@@ -90,17 +112,28 @@ body {
 /* Events Section */
 
 .events {
-  background-color: #3F51B5;
+  background-color: #1F4E80;
   width: 100%;
   z-index: 9;
   min-height: 300px;
   color: white;
 }
 
+.event {
+  display: inline;
+}
+
+.learn-more-button {
+  float: right;
+  display: inline-block;
+  background-color: #1F4E80;
+  color: white;
+}
+
 /* Comments Section */
 .comments {
   padding: 50px;
-  background-color: #31429D;
+  background-color: #1F4E80;
 }
 
 .comments p {
@@ -121,8 +154,13 @@ body {
 }
 
 .temporary-logos {
+  min-width: 55px;
   width: 150px;
-  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.temporary-logos-horizontle {
+  margin-top: 50px;
 }
 
 .logo {
@@ -130,4 +168,50 @@ body {
   margin: 50px;
   height: 150px;
   width: 150px;
+}
+
+.events-section {
+  max-width: 400px;
+  margin-top: 10%;
+  background: transparent;
+  color: black;
+  opacity: 1;
+}
+
+.events-section md-card {
+  background-color: white !important;
+  color: black;
+  opacity: 1;
+  border: solid 8px #1F4E80;
+  width: 95%;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact-card {
+  width: 60%;
+  height: 70%;
+  text-align: center;
+  margin: auto;
+  opacity: .95;
+  margin-top: 110px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+}
+
+.contact-input {
+  border-radius: 5px;
+  padding: 4px;
+  margin: 10px;
+}
+
+.contact-text-input {
+  padding: 4px;
+  height: 70px;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.submit-contact {
+  padding: 4px;
 }
