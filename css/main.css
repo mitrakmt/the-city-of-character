@@ -23,7 +23,7 @@ body {
   overflow: hidden;
   width: 100%;
   opacity: .95;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid gray;
 }
 
 .md-raised {

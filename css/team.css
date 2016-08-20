@@ -20,10 +20,10 @@ body {
   font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
   font-size: 62.5%;
   line-height: 1;
-  color: black;
+  color: white;
   padding: 55px 0;
   padding-bottom: 880px;
-  background-image: url('images/hamilton2.jpg');
+  background-image: url('images/ham1.jpg');
   background-repeat: repeat;
   height: 110%;
   width: 100%;
@@ -41,7 +41,7 @@ body {
   overflow: hidden;
   width: 100%;
   opacity: .95;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid gray;
 }
 
 .navbar p {
@@ -99,7 +99,7 @@ h1 {
   font-size: 3.6em;
   line-height: 1.4em;
   margin-bottom: 10px;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
@@ -108,7 +108,7 @@ h2 {
   font-size: 3.0em;
   line-height: 1.2em;
   margin-bottom: 4px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -119,7 +119,7 @@ h3 {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   margin-bottom: 11px;
-  color: black;
+  color: white;
   font-weight: normal;
 }
 
@@ -128,7 +128,7 @@ p {
   font-size: 1.6em;
   line-height: 1.4em;
   margin-bottom: 15px;
-  color: black;
+  color: white;
 }
 
 a {
@@ -141,9 +141,9 @@ a:hover {
 }
 
 .profilepic {
-  opacity: .7;
+  opacity: .8;
   border-radius: 8px;
-  background-color: gray;
+  background-color: black;
 }
 
 .profilepic:hover {
