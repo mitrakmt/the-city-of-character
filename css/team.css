@@ -21,13 +21,16 @@ body {
   font-size: 62.5%;
   line-height: 1;
   color: white;
+}
+
+.team-background {
   padding: 55px 0;
   padding-bottom: 880px;
   background-image: url('images/ham1.jpg');
-  background-repeat: repeat;
-  height: 110%;
+  background-repeat: no-repeat;
+  height: 100%;
   width: 100%;
-  position: relative;
+  position: fixed;
 }
 
 /* Navbar */
@@ -154,9 +157,13 @@ a:hover {
 /** page structure **/
 #w {
   display: block;
-  margin: 30px auto;
+  margin: 50px auto;
   height: 100%;
-  padding: 10px 25px;
+  padding: 50px 25px;
+}
+
+#w p {
+  font-style: italic;
 }
 
 #teamcontent {

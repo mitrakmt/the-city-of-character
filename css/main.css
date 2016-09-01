@@ -2,10 +2,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.team-background {
+  padding: 55px 0;
+  padding-bottom: 880px;
   background-image: url('images/ham1.jpg');
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  position: relative;
+  position: fixed;
 }
 
 .hidden {
@@ -144,6 +150,11 @@ body {
 
 .sponsors {
   color: black;
+  background-color: white;
+}
+
+#coc-image-link {
+  cursor: pointer;
 }
 
 /* Logo */
@@ -195,7 +206,7 @@ body {
   margin: auto;
   opacity: .95;
   margin-top: 110px;
-  background-color: #F9F9F9;
+  background-color: #ffffff;
   border-radius: 8px;
 }
 
@@ -203,6 +214,11 @@ body {
   border-radius: 5px;
   padding: 4px;
   margin: 10px;
+  color: black;
+}
+
+.md-input-container:not {
+  color: black;
 }
 
 .contact-text-input {
@@ -210,8 +226,20 @@ body {
   height: 70px;
   border-radius: 8px;
   width: 70%;
+  color: black;
 }
 
 .submit-contact {
   padding: 4px;
+}
+
+/* Character trait */
+.character-trait-section {
+  margin-bottom: 50px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.character-trait-section p {
+  color: white;
 }

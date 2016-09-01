@@ -59,8 +59,10 @@
   <body>
     <md-content class="navbar" layout="row" layout-align="center center" layout-padding>
       <p class="md-title"><button class="navLink currentPage" onclick="homeClick()">Welcome</button></p>
+      <p class="md-title"><button class="navLink" onclick="newsClick()">News & Videos</button></p>
       <p class="md-title"><button class="navLink" onclick="teamClick()">Who We Are</button></p>
       <p class="md-title"><button class="navLink" onclick="whatWeDoClick()">What We Do</button></p>
+      <p class="md-title"><button class="navLink" onclick="dinnerClick()">Heroes Dinner</button></p>
       <p class="md-title"><button class="navLink" onclick="historyClick()">History</button></p>
       <p class="md-title"><button class="navLink" onclick="contactClick()">Get in Touch</button></p>
       <i><a class="fa fa-facebook"></a></i>
@@ -68,12 +70,15 @@
       <i><a class="fa fa-linkedin"></a></i>
     </md-content>
 
+    <div class="team-background"></div>
+
     <md-content class="landing" layout="row" layout-xs="column" layout-align="center" layout-padding>
       <div layout-padding flex>
         <!-- <h1 class="md-display-3 title" layout-margin>Hamilton, the City of Character</h1> -->
         <img class="title" src="images/cocLogo.png" />
         <p class="md-title title-tag">Transforming the city of Hamilton into a national recognizable city of character. </p>
       </div>
+
       <div class="events-section" flex>
         <md-card class="event-card>" layout-padding>
           <md-content layout-padding>
@@ -109,7 +114,7 @@
     </md-content>
 
     <md-content class="team" layout="row" layout-xs="column">
-      <img src="images/mayor.jpg" class="thumb-images"/>
+      <img src="images/parade.jpg" class="thumb-images"/>
       <md-content class="card-content" layout-margin layout-padding>
         <p class="md-display-1">What We Do </p>
         <p class="md-subhead">Through leadership of the city of Hamilton's Mayor, Pat Moeller, we work with stakeholders in thte community to change the city of Hamilton into a nationally recognized city of character.</p>
@@ -129,8 +134,10 @@
     <md-content class="sponsors" layout="column" layout-align="center center">
       <p class="md-display-1" style="margin-bottom: -5px;">Our Sponsors </p>
       <div layout="row" layout-padding>
-        <md-whiteframe class="" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout-align="center center">
-          <img src="images/character-council.jpg" class="temporary-logos temporary-logos-horizontle hidden"/>
+        <md-whiteframe href="http://charactercincinnati.org/" class="" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout-align="center center">
+          <a href="http://charactercincinnati.org/" target="_blank" class="link">
+            <img src="images/character-council.jpg" id="coc-image-link" class="temporary-logos temporary-logos-horizontle hidden"/>
+          </a>
         </md-whiteframe>
         <md-whiteframe class="" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout-align="center center">
           <img src="images/miami-logo.jpg" class="temporary-logos"/>

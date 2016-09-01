@@ -18,6 +18,14 @@ function historyClick() {
   window.location.href = "history.html";
 }
 
+function dinnerClick() {
+  window.location.href = "heroesDinner.html";
+}
+
+function newsClick() {
+  window.location.href = "news.html";
+}
+
 $(function(){
   $('.profilepic').on('click', function(e){
     var $biginfo = $('#teamcontent');
