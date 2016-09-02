@@ -221,10 +221,9 @@ body {
   background-color: white !important;
   color: black;
   opacity: 1;
-  margin-left: -30px;
-  margin-right: 200px;
+  margin-left: -40px;
   border: solid 8px #1F4E80;
-  width: 89%;
+  width: 96%;
   border-radius: 5px;
 }
 
@@ -277,4 +276,43 @@ body {
   color: black;
   text-decoration: none;
   font-style: none;
+}
+
+/* News section */
+
+.news-title {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.news-title h1 {
+  text-align: center;
+  color: white;
+}
+
+.news-card {
+  background-color: white;
+  color: black;
+  opacity: .95;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.news-card h1 {
+  z-index: 120;
+  text-align: center;
+}
+
+.news-card h1 a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.news-card p {
+  z-index: 120;
+  color: black;
+  padding: 20px;
 }

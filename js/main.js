@@ -33,7 +33,6 @@ function newsClick() {
 // $('.twitter').attr("href", "https://twitter.com/CharacterCincy?lang=en");
 // $('.linkedin').attr("href", "https://www.facebook.com/cityofcharacterHamilton/?fref=ts");
 
-$(function(){
   $('.profilepic').on('click', function(e){
     var $biginfo = $('#teamcontent');
     var $bigname = $('#bigname');
@@ -52,4 +51,3 @@ $(function(){
       $biginfo.slideDown(350);
     }
   });
-});

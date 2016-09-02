@@ -144,7 +144,7 @@ a:hover {
 }
 
 .profilepic {
-  opacity: .8;
+  opacity: .9;
   border-radius: 8px;
   background-color: black;
 }
@@ -157,9 +157,10 @@ a:hover {
 /** page structure **/
 #w {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   height: 100%;
-  padding: 50px 25px;
+  padding: 50px 10px;
+  padding-left: 50px;
 }
 
 #w p {
@@ -169,6 +170,12 @@ a:hover {
 #teamcontent {
   display: none;
   margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.team-heading {
+  text-align: center;
+  padding-top: 80px;
 }
 
 md-content {
@@ -200,13 +207,14 @@ md-content {
 #teamcontent .bigimg {
   display: block;
   float: left;
+  margin-right: 30px;
+  padding: 30px;
 }
 
 #teamdetails {
   display: block;
   float: left;
   width: 600px;
-  padding-left: 15px;
 }
 
 /** clearfix **/

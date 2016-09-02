@@ -79,12 +79,13 @@
       <a class="linkedin" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" layout-padding></i></a>
     </md-content>
 
-    <md-content layout="center center" layout-padding>
-      <div id="w" layout-padding>
-        <h1 class="md-display-3">Meet the Team</h1>
-        <p class="md-subhead">Click any of the team member's photos to show more details.</p>
+    <md-content class="team-heading" layout-margin layout-padding>
+      <h1 class="md-display-3">Meet the Team</h1>
+      <p class="md-subhead">Click any of the team member's photos to show more details.</p>
+    </md-content>
 
-        <br><br><br>
+    <md-content layout="center center" layout="row" layout-padding>
+      <div id="w" layout-padding flex>
 
         <ul class="team clearfix" layout="row">
           <li>
@@ -156,22 +157,21 @@
           </li>
         </ul>
 
-        <div id="teamcontent" class="clearfix">
-          <!-- <img src="images/shan-team.jpg" class="bigimg" width="225" height="260"> -->
-          <div id="teamdetails">
-            <h2 id="bigname">Name</h2>
-            <h3 id="bigjob">Title</h3>
-            <p id="bigdesc">A brief description.</p>
-          </div>
+      </div>
+      <div id="teamcontent" class="clearfix" layout-margin flex>
+        <!-- <img src="images/shan-team.jpg" class="bigimg" width="225" height="260"> -->
+        <div id="teamdetails">
+          <h2 id="bigname">Name</h2>
+          <h3 id="bigjob">Title</h3>
+          <p id="bigdesc">A brief description.</p>
         </div>
-
       </div>
     </md-content>
 
 
-    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.js"></script>
-    <script src="js/main.js" async></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
