@@ -14,6 +14,10 @@ body {
   position: fixed;
 }
 
+.md-display-2 {
+  color: white;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -235,11 +239,14 @@ body {
 
 /* Character trait */
 .character-trait-section {
-  margin-bottom: 50px;
-  margin-top: 0;
+  background-color: transparent;
   text-align: center;
 }
 
-.character-trait-section p {
-  color: white;
+.character-trait {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
 }
