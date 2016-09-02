@@ -15,6 +15,7 @@
 
     <!-- Site styles and authors -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
     <link href="humans.txt" rel="author">
 
@@ -58,16 +59,19 @@
   </head>
   <body>
     <md-content class="navbar" layout="row" layout-align="center center" layout-padding>
-      <p class="md-title"><button class="navLink currentPage" onclick="homeClick()">Welcome</button></p>
+      <p class="md-title"><button class="navLink currentPage" onclick="homeClick()">Home</button></p>
       <p class="md-title"><button class="navLink" onclick="newsClick()">News & Videos</button></p>
       <p class="md-title"><button class="navLink" onclick="teamClick()">Who We Are</button></p>
       <p class="md-title"><button class="navLink" onclick="whatWeDoClick()">What We Do</button></p>
       <p class="md-title"><button class="navLink" onclick="dinnerClick()">Heroes Dinner</button></p>
       <p class="md-title"><button class="navLink" onclick="historyClick()">History</button></p>
-      <p class="md-title"><button class="navLink" onclick="contactClick()">Get in Touch</button></p>
-      <i><a class="fa fa-facebook"></a></i>
-      <i><a class="fa fa-twitter"></a></i>
-      <i><a class="fa fa-linkedin"></a></i>
+      <p class="md-title"><button class="navLink" onclick="contactClick()">Contact</button></p>
+    </md-content>
+
+    <md-content class="social-bar">
+      <a class="facebook" href="https://www.facebook.com/cityofcharacterHamilton/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true" layout-padding></i></a>
+      <a class="twitter" href="https://www.facebook.com/cityofcharacterHamilton/?fref=ts" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true" layout-padding></i></a>
+      <a class="linkedin" href="https://www.facebook.com/cityofcharacterHamilton/?fref=ts" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" layout-padding></i></a>
     </md-content>
 
     <div class="team-background"></div>
@@ -114,7 +118,7 @@
     </md-content>
 
     <md-content class="character-trait-section" layout-padding>
-      <h1 class="md-display-2">Character Trait of the Month: <span class="character-trait">Honesty</span></h1>
+      <h1 class="md-display-2">Character Trait of the Month: <a href="http://charactercincinnati.org/quality_resource.php" target="_blank" class="character-trait">Orderliness</a></h1>
     </md-content>
 
     <md-content class="team" layout="row" layout-xs="column">
