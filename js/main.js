@@ -26,13 +26,6 @@ function newsClick() {
   window.location.href = "news.html";
 }
 
-// $('.facebook').each(function () {
-//   $(this).attr("href", "https://www.facebook.com/cityofcharacterHamilton/?fref=ts");
-// })
-//
-// $('.twitter').attr("href", "https://twitter.com/CharacterCincy?lang=en");
-// $('.linkedin').attr("href", "https://www.facebook.com/cityofcharacterHamilton/?fref=ts");
-
   $('.profilepic').on('click', function(e){
     var $biginfo = $('#teamcontent');
     var $bigname = $('#bigname');
