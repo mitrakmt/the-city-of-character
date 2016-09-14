@@ -62,7 +62,7 @@
       <p class="md-title"><button class="navLink" onclick="homeClick()">Home</button></p>
       <p class="md-title"><button class="navLink" onclick="newsClick()">News & Videos</button></p>
       <p class="md-title"><button class="navLink currentPage" onclick="teamClick()">Who We Are</button></p>
-      <p class="md-title"><button class="navLink" onclick="whatWeDoClick()">What We Do</button></p>
+      <p class="md-title"><button class="navLink" onclick="whatWeDoClick()">About</button></p>
       <p class="md-title"><button class="navLink" onclick="dinnerClick()">Heroes Dinner</button></p>
       <p class="md-title"><button class="navLink" onclick="historyClick()">History</button></p>
       <p class="md-title"><button class="navLink" onclick="contactClick()">Contact</button></p>
@@ -79,79 +79,88 @@
       <p class="md-subhead">Click any of the team member's photos to show more details.</p>
     </md-content>
 
-    <md-content layout="center center" layout="row" layout-padding>
+    <md-content layout="center center" layout="row" layout-sm="column" layout-xs="column" layout-padding>
+      <div id="teamcontent" class="clearfix small-view-text" layout-margin flex>
+        <!-- <img src="images/shan-team.jpg" class="bigimg" width="225" height="260"> -->
+        <div id="teamdetails">
+          <h2 id="bigname">Name</h2>
+          <h3 id="bigjob">Title</h3>
+          <p id="bigdesc">A brief description.</p>
+        </div>
+      </div>
       <div id="w" layout-padding flex>
 
-        <ul class="team clearfix" layout="row">
-          <li>
-            <img src="images/team/oneill.jpg" alt="Nancy O’Neill" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">Nancy O’Neill is a native of the Greater Hamilton area.  She is Director of Communications and Events for the Greater Hamilton Chamber of Commerce and is also director of the Chamber's Leadership Hamilton program.
+        <div class="team-text">
+          <ul class="team clearfix" layout="row">
+            <li>
+              <img src="images/team/oneill.jpg" alt="Nancy O’Neill" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">Nancy O’Neill is a native of the Greater Hamilton area.  She is Director of Communications and Events for the Greater Hamilton Chamber of Commerce and is also director of the Chamber's Leadership Hamilton program.
+                <br><br>
+              Nancy currently serves on the YMCA Camp Campbell Gard Advisory Board, Hamilton Rotary Club Board, City of Sculpture Board, and the Rossville Historic District Board.  She has previously served on the Boards of the Boys & Girls Club of Hamilton and the YWCA.  She is a member of the Hamilton Rotary Club, Hamilton Junior Women’s League, Hamilton Community Foundation Women's Fund Committee, Colleagues of Fort Hamilton Hospital, and P.E.O. Chapter ES.
               <br><br>
-            Nancy currently serves on the YMCA Camp Campbell Gard Advisory Board, Hamilton Rotary Club Board, City of Sculpture Board, and the Rossville Historic District Board.  She has previously served on the Boards of the Boys & Girls Club of Hamilton and the YWCA.  She is a member of the Hamilton Rotary Club, Hamilton Junior Women’s League, Hamilton Community Foundation Women's Fund Committee, Colleagues of Fort Hamilton Hospital, and P.E.O. Chapter ES.
-            <br><br>
-            Nancy joined the City of Character Committee as a representative of the Chamber...bringing a connection to the business community.</span>
-          </li>
+              Nancy joined the City of Character Committee as a representative of the Chamber...bringing a connection to the business community.</span>
+            </li>
 
-          <li>
-            <img src="images/shan-team.jpg" alt="Joni Copas" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">My name is Joni Copas and I am the Director of Communications for the Hamilton City School District.  I am a life-long resident of Hamilton and graduated from Miami University.  I am very involved in the district's Character Education Initiative, which is one of the precursors to the City of Character Program, and have been involved in the City of Character since its inception.</span>
-          </li>
+            <li>
+              <img src="images/shan-team.jpg" alt="Joni Copas" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">My name is Joni Copas and I am the Director of Communications for the Hamilton City School District.  I am a life-long resident of Hamilton and graduated from Miami University.  I am very involved in the district's Character Education Initiative, which is one of the precursors to the City of Character Program, and have been involved in the City of Character since its inception.</span>
+            </li>
 
-          <li>
-            <img src="images/shan-team.jpg" alt="Shan Qureshi" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">My name is Shan Qureshi and I am a Masters student at Xavier University studying Healthcare Administration. I graduated from Miami University in 2014 and was involved with the Student Government Association and Project Civility. I have been a member of the City of Character since its inception and came to learn about it through the vision of Mayor Pat Moeller. Over the last three years, I’ve witnessed how civility and character can positively influence individuals and I cherish the opportunity to serve the community I love.
-            </span>
-          </li>
+            <li>
+              <img src="images/shan-team.jpg" alt="Shan Qureshi" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">My name is Shan Qureshi and I am a Masters student at Xavier University studying Healthcare Administration. I graduated from Miami University in 2014 and was involved with the Student Government Association and Project Civility. I have been a member of the City of Character since its inception and came to learn about it through the vision of Mayor Pat Moeller. Over the last three years, I’ve witnessed how civility and character can positively influence individuals and I cherish the opportunity to serve the community I love.
+              </span>
+            </li>
 
-          <li>
-            <img src="images/shan-team.jpg" alt="Pat Ganz" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">
-              Pat is a retired teacher.  She spent her entire career at Ross H.S. and is proud to say that she created the theatre arts department. She has been a member of the Greater Hamilton Civic Theatre for over 50 years and a founding member of the Mad Anthony Theatre Co. at the Fitton Center.  Pat has been inducted into the Hamilton Fine Arts Hall of Fame and chosen as a Woman of Influence by the Hamilton Journal News for her work as an educator and director. CET chose her to be part of their oral history project, Capturing the Voices, due to the positive influence she has had on the performing arts in the greater Cincinnati area.  Pat believes that no one is successful by themselves. There were many people through the years who were her teachers and her students or both, she would like to thank them for helping her learn to shine.
-            </span>
-          </li>
+            <li>
+              <img src="images/shan-team.jpg" alt="Pat Ganz" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">
+                Pat is a retired teacher.  She spent her entire career at Ross H.S. and is proud to say that she created the theatre arts department. She has been a member of the Greater Hamilton Civic Theatre for over 50 years and a founding member of the Mad Anthony Theatre Co. at the Fitton Center.  Pat has been inducted into the Hamilton Fine Arts Hall of Fame and chosen as a Woman of Influence by the Hamilton Journal News for her work as an educator and director. CET chose her to be part of their oral history project, Capturing the Voices, due to the positive influence she has had on the performing arts in the greater Cincinnati area.  Pat believes that no one is successful by themselves. There were many people through the years who were her teachers and her students or both, she would like to thank them for helping her learn to shine.
+              </span>
+            </li>
 
-          <li>
-            <img src="images/team/tyahur.jpg" alt="Pamela M. Tyahur, Ph.D." width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">
-              Pamela M. Tyahur, Ph.D. is an adjunct faculty member at Miami University Hamilton Campus, where she teaches face-to-face and online and has done so at the college level for more than twenty-plus years.  Holding elementary and secondary teaching certifications, she is able to teach in multi-faceted subject matter (English, Speech, Drama, Reading, Journalism [7-12] and Music [K-12]).  Her undergraduate degree was in Music and Theatre Arts Education from Edgecliff College of Xavier University, Cincinnati, OH.  Her graduate degree was from Northern Kentucky University, where she earned a Masters of Arts in Education.  Dr. Tyahur earned a Doctorate of Philosophy in English at Miami University, Oxford, OH, with a focus in the area of Composition and Rhetoric and cognate in Communications.  As Co-advisor of Miami University’s Project Civility since its inception, she has created, promoted, and supplied Miami student leaders to work with schools and businesses to open chapters of Project Civility through the Educational Community Outreach (ECO), including Talawanda School District, Madison School District of Ohio, and Xavier University of Ohio.  In addition, she helped with the initiation and installation of Miami University Project Civility Alumni Team (MUPCAT).  Plus, she has made certain that I Combat Hunger (ICH) is a resource in all of Miami’s syllabi.  ICH provides a seven dollar meal voucher from the Miami Hamilton or Middletown campus’ lunchroom, no questions asked so that students can go to class with a full stomach.  She has joined the Council of Character in the city of Hamilton this past year when one of the first members of the council and other Co-advisor of Project Civility retired.  Co-author of “Civility and Academic Freedom:  Extending the Conversation” in the Journal of Contemporary Rhetoric, she serves as an expert in the field of civility where she teaches a course with this very theme.  Her initiative is to make the world a better place by spreading one civil act at a time.
-            </span>
-          </li>
+            <li>
+              <img src="images/team/tyahur.jpg" alt="Pamela M. Tyahur, Ph.D." width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">
+                Pamela M. Tyahur, Ph.D. is an adjunct faculty member at Miami University Hamilton Campus, where she teaches face-to-face and online and has done so at the college level for more than twenty-plus years.  Holding elementary and secondary teaching certifications, she is able to teach in multi-faceted subject matter (English, Speech, Drama, Reading, Journalism [7-12] and Music [K-12]).  Her undergraduate degree was in Music and Theatre Arts Education from Edgecliff College of Xavier University, Cincinnati, OH.  Her graduate degree was from Northern Kentucky University, where she earned a Masters of Arts in Education.  Dr. Tyahur earned a Doctorate of Philosophy in English at Miami University, Oxford, OH, with a focus in the area of Composition and Rhetoric and cognate in Communications.  As Co-advisor of Miami University’s Project Civility since its inception, she has created, promoted, and supplied Miami student leaders to work with schools and businesses to open chapters of Project Civility through the Educational Community Outreach (ECO), including Talawanda School District, Madison School District of Ohio, and Xavier University of Ohio.  In addition, she helped with the initiation and installation of Miami University Project Civility Alumni Team (MUPCAT).  Plus, she has made certain that I Combat Hunger (ICH) is a resource in all of Miami’s syllabi.  ICH provides a seven dollar meal voucher from the Miami Hamilton or Middletown campus’ lunchroom, no questions asked so that students can go to class with a full stomach.  She has joined the Council of Character in the city of Hamilton this past year when one of the first members of the council and other Co-advisor of Project Civility retired.  Co-author of “Civility and Academic Freedom:  Extending the Conversation” in the Journal of Contemporary Rhetoric, she serves as an expert in the field of civility where she teaches a course with this very theme.  Her initiative is to make the world a better place by spreading one civil act at a time.
+              </span>
+            </li>
 
-          <li>
-            <img src="images/team/thoms.jpg" alt="Paul Thoms" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">Paul Thoms is a community voluteer, with a background in music education, school administration, and public relations. His concern that civility might be disappearing has led to a dedication to promoting character education, in Hamilton, as a means of growing the community's ability to show consideration for others.
-            </span>
-          </li>
+            <li>
+              <img src="images/team/thoms.jpg" alt="Paul Thoms" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">Paul Thoms is a community voluteer, with a background in music education, school administration, and public relations. His concern that civility might be disappearing has led to a dedication to promoting character education, in Hamilton, as a means of growing the community's ability to show consideration for others.
+              </span>
+            </li>
 
-          <li>
-            <img src="images/shan-team.jpg" alt="Peter N. Engelhard Jr." width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">My name is Peter N. Engelhard Jr. and I graduated from Miami University in 2016 with an A.A.S. in Business Management Technology, B.S. in Civic and Regional Development, and Bachelor in Integrative Studies with concentrations in Organizational Leadership and Cross-Cultural Leadership. During my senior year at Miami; three other Miami students and I created the first Student United Way in the state of Ohio right on the Miami Hamilton campus. I started as an intern for the City of Character in January 2016 and became a member of the committee in July.  I moved to Hamilton from Oxford in the end of spring to help be a part of the revitalization of Hamilton. I’m involved in updating the website for the CORE Fund, on the Resource Development Committee at SELF, and helping build up the volunteer coordinator position at the Booker T. Washington Community Center.  Looking to get involved as an engaged civic leader in the Hamilton community.</span>
-          </li>
+            <li>
+              <img src="images/shan-team.jpg" alt="Peter N. Engelhard Jr." width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">My name is Peter N. Engelhard Jr. and I graduated from Miami University in 2016 with an A.A.S. in Business Management Technology, B.S. in Civic and Regional Development, and Bachelor in Integrative Studies with concentrations in Organizational Leadership and Cross-Cultural Leadership. During my senior year at Miami; three other Miami students and I created the first Student United Way in the state of Ohio right on the Miami Hamilton campus. I started as an intern for the City of Character in January 2016 and became a member of the committee in July.  I moved to Hamilton from Oxford in the end of spring to help be a part of the revitalization of Hamilton. I’m involved in updating the website for the CORE Fund, on the Resource Development Committee at SELF, and helping build up the volunteer coordinator position at the Booker T. Washington Community Center.  Looking to get involved as an engaged civic leader in the Hamilton community.</span>
+            </li>
 
-          <li>
-            <img src="images/team/lippert.jpg" alt="Steve Lippert" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Member</span>
-            <span class="hcontent desc">
-              Hi! I am Steve Lippert, Executive VP with Hamilton Caster & Mfg. Co.  After a 4-year stint in the Army, I have worked here for 31 years in HR, Finance, Marketing and Administration.   Currently I am the Chairman of the City of Hamilton Character Committee.  This committee works at the grassroots level to develop and promote good character in our Schools, Businesses, Churches and Government.  I am proud that our Mayor has put such an emphasis on Character during his tenure.
-            </span>
-          </li>
+            <li>
+              <img src="images/team/lippert.jpg" alt="Steve Lippert" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Member</span>
+              <span class="hcontent desc">
+                Hi! I am Steve Lippert, Executive VP with Hamilton Caster & Mfg. Co.  After a 4-year stint in the Army, I have worked here for 31 years in HR, Finance, Marketing and Administration.   Currently I am the Chairman of the City of Hamilton Character Committee.  This committee works at the grassroots level to develop and promote good character in our Schools, Businesses, Churches and Government.  I am proud that our Mayor has put such an emphasis on Character during his tenure.
+              </span>
+            </li>
 
-          <li>
-            <img src="images/shan-team.jpg" alt="Mary Andres Russell" width="130" height="150" class="profilepic">
-            <span class="hcontent job">Executive Director</span>
-            <p class="hcontent desc">Mary has been facilitating character discovery seminars for the Character Council since 2001.  Through her warmth and enthusiasm, Mary creates a positive, comfortable atmosphere for learning and personal development and brings awareness to this much-needed focus on good character and integrity.
-            <br><br>
-            Her goal through the seminars is to help others discover and nurture the best in themselves.  Through the seminars and monthly writings, she has inspired thousands.  In addition, she helped launch character-focused initiatives in nine schools, four pre-schools, six businesses, one chamber of commerce, one library, two faith organizations, and in three communities.  </p>
-          </li>
-        </ul>
-
+            <li>
+              <img src="images/shan-team.jpg" alt="Mary Andres Russell" width="130" height="150" class="profilepic">
+              <span class="hcontent job">Executive Director</span>
+              <p class="hcontent desc">Mary has been facilitating character discovery seminars for the Character Council since 2001.  Through her warmth and enthusiasm, Mary creates a positive, comfortable atmosphere for learning and personal development and brings awareness to this much-needed focus on good character and integrity.
+              <br><br>
+              Her goal through the seminars is to help others discover and nurture the best in themselves.  Through the seminars and monthly writings, she has inspired thousands.  In addition, she helped launch character-focused initiatives in nine schools, four pre-schools, six businesses, one chamber of commerce, one library, two faith organizations, and in three communities.  </p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="teamcontent" class="clearfix" layout-margin flex>
         <!-- <img src="images/shan-team.jpg" class="bigimg" width="225" height="260"> -->

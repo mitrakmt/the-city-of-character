@@ -18,6 +18,10 @@ body {
   color: white;
 }
 
+.character-logo {
+  padding-top: 25px;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -63,6 +67,12 @@ body {
 .md-raised {
   background-color: white;
   color: #1F4E80;
+  padding: 5px 19px;
+  margin-left: 0;
+}
+
+.learn-more-button-section {
+  margin-top: 30px;
 }
 
 .navbar p {
@@ -103,6 +113,10 @@ body {
   margin-left: 3%;
   color: white;
   font-weight: 600;
+}
+
+.main-logo {
+  width: 700px;
 }
 
 .title-tag {
@@ -194,8 +208,13 @@ body {
 
 .temporary-logos {
   min-width: 55px;
-  width: 150px;
+  width: 200px;
   margin-top: 20px;
+}
+
+.disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .temporary-logos-horizontle {
@@ -217,6 +236,10 @@ body {
   opacity: 1;
 }
 
+.event-card {
+  min-width: 400px;
+}
+
 .events-section md-card {
   background-color: white !important;
   color: black;
@@ -225,6 +248,7 @@ body {
   border: solid 8px #1F4E80;
   width: 96%;
   border-radius: 5px;
+  min-width: 300px;
 }
 
 /* Contact */
@@ -239,10 +263,19 @@ body {
   border-radius: 8px;
 }
 
+.md-display-1 {
+  color: white;
+}
+
+.section-title {
+  margin-top: 45px;
+}
+
 .contact-input {
   border-radius: 5px;
   padding: 4px;
   margin: 10px;
+  width: 244px;
   color: black;
 }
 
@@ -253,7 +286,7 @@ body {
 .contact-text-input {
   padding: 4px;
   height: 70px;
-  border-radius: 8px;
+  border-radius: 3px;
   width: 70%;
   color: black;
 }
@@ -266,13 +299,14 @@ body {
 .character-trait-section {
   background-color: transparent;
   text-align: center;
+  margin: 20px;
 }
 
 .character-trait {
   padding: 20px;
   background-color: white;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 3px;
   color: black;
   text-decoration: none;
   font-style: none;
@@ -315,4 +349,53 @@ body {
   z-index: 120;
   color: black;
   padding: 20px;
+}
+
+@media (max-width: 1000px) and (min-width: 560px) {
+    .navbar p {
+      padding:5px;
+    }
+    .navLink {
+      font-size: 15px;
+    }
+    .md-display-2 {
+      font-size: 20px;
+    }
+    .events-section {
+      display: none;
+    }
+
+    .main-logo {
+      width: 600px !important;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 260px) {
+    .navbar p {
+      padding:5px;
+    }
+    .navLink {
+      font-size: 10px;
+    }
+    .md-display-2 {
+      font-size: 13px;
+    }
+    .events-section {
+      display: none;
+    }
+    .character-trait {
+      padding:10px;
+    }
+    .title {
+      margin-top: 40%;
+    }
+    .temporary-logos {
+      width: 100px;
+    }
+    .title-tag {
+      max-width: 85%;
+    }
+    .main-logo {
+      width: 360px !important;
+    }
 }

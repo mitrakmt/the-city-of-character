@@ -72,6 +72,10 @@ body {
   border: none;
 }
 
+.small-view-text {
+  display: none;
+}
+
 /* Team section */
 
 br { display: block; line-height: 1.6em; }
@@ -223,3 +227,82 @@ md-content {
 
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+
+@media (max-width: 1000px) and (min-width: 560px) {
+    .navbar p {
+      padding:5px;
+    }
+    .navLink {
+      font-size: 15px;
+    }
+    .md-display-2 {
+      font-size: 20px;
+    }
+    .events-section {
+      display: none;
+    }
+    #teamcontent {
+      margin-top: 0;
+    }
+    .small-view-text {
+      display: block;
+    }
+    #teamdetails {
+      width: 100% !important;
+    }
+    .main-logo {
+      width: 600px !important;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 260px) {
+    .navbar p {
+      padding:5px;
+    }
+    #teamdetails {
+      width: 100% !important;
+    }
+    .small-view-text {
+      display: block;
+    }
+    .navLink {
+      font-size: 10px;
+    }
+    .md-display-2 {
+      font-size: 13px;
+    }
+    .events-section {
+      display: none;
+    }
+    .character-trait {
+      padding:10px;
+    }
+    .profilepic {
+      height: 75%;
+      width: 75%;
+    }
+    #teamcontent {
+      margin-top: 0;
+    }
+    #w {
+      display: block;
+      margin: 20px auto;
+      height: 100%;
+      padding: 20px 10px;
+      padding-left: 45px;
+    }
+
+    .title {
+      margin-top: 40%;
+    }
+    .temporary-logos {
+      width: 100px;
+    }
+    .title-tag {
+      max-width: 85%;
+    }
+    .main-logo {
+      width: 360px !important;
+    }
+}
